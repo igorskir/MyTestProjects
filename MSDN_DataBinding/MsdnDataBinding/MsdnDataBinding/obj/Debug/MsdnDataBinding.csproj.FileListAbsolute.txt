@@ -1,0 +1,1 @@
+D:\VS\Projects\MyTestProjects\MSDN_DataBinding\MsdnDataBinding\MsdnDataBinding\bin\Debug\MsdnDataBinding.exe.config

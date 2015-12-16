@@ -1,0 +1,13 @@
+﻿<Window x:Class="ComboBoxDataBinding.Example2Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Example #2 - displays a string and binds to an enum" Height="125" Width="450"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <ComboBox ItemsSource="{Binding ColorListEnum}"
+                  DisplayMemberPath ="ValueColorString" 
+                  SelectedValuePath="ValueColorEnum"
+                  SelectedValue="{Binding ColorEnum}"/>
+        <TextBlock Text="{Binding ColorEnum}" />
+    </StackPanel>
+</Window>

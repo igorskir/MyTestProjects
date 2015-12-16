@@ -1,0 +1,13 @@
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\bin\Debug\MovingTowardWPFDataBinding.exe.config
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\bin\Debug\MovingTowardWPFDataBinding.exe
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\bin\Debug\MovingTowardWPFDataBinding.pdb
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MovingTowardWPFDataBinding.csprojResolveAssemblyReference.cache
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MainWindow.baml
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MainWindow.g.cs
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\App.g.cs
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MovingTowardWPFDataBinding_MarkupCompile.cache
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MovingTowardWPFDataBinding.g.resources
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MovingTowardWPFDataBinding.Properties.Resources.resources
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MovingTowardWPFDataBinding.csproj.GenerateResource.Cache
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MovingTowardWPFDataBinding.exe
+D:\VS\Projects\MyTestProjects\MovingTowardWPFDataBinding\MovingTowardWPFDataBinding\obj\Debug\MovingTowardWPFDataBinding.pdb

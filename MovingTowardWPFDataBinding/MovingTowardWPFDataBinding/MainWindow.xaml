@@ -1,0 +1,27 @@
+﻿<Window x:Class="MovingTowardWPFDataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBox
+                x:Name ="firstNameTextBox"
+                Width="200"
+                Margin="0,4"
+                Text="{Binding Path=FirstName, UpdateSourceTrigger=PropertyChanged}">
+            </TextBox>
+            <TextBox
+                x:Name="lastNameTextBox"
+                Width="200"
+                Margin="0,4"
+                Text="{Binding Path=LastName, UpdateSourceTrigger=PropertyChanged}">
+            </TextBox>
+            <TextBlock
+                x:Name="fullNameTextBlock"
+                Background="LightBlue"
+                Margin="0,4"
+                Text="{Binding Path=FullName}">
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

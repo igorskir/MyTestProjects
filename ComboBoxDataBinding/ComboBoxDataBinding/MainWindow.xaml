@@ -1,0 +1,14 @@
+﻿<Window x:Class="ComboBoxDataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Databinding ComboBox" Height="118" Width="372"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <Button Margin="5" Click="ButtonBase_OnClick1">
+            <TextBlock TextWrapping="Wrap">Example #1 - displays a string and binds to a string</TextBlock>
+        </Button>
+        <Button Margin="5" Click="ButtonBase_OnClick2" >
+            <TextBlock TextWrapping="Wrap">Example #2 - displays a string and binds to an enum</TextBlock>
+        </Button>
+    </StackPanel>
+</Window>

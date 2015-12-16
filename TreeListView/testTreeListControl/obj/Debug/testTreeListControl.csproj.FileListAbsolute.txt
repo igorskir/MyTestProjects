@@ -1,0 +1,9 @@
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\testTreeListControl.csprojResolveAssemblyReference.cache
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\Tabs\MainDemo.baml
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\App.baml
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\MainWindow.g.cs
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\Tabs\MainDemo.g.cs
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\App.g.cs
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\testTreeListControl_MarkupCompile.cache
+D:\VS\Projects\MyTestProjects\TreeListView\testTreeListControl\obj\Debug\testTreeListControl_MarkupCompile.lref

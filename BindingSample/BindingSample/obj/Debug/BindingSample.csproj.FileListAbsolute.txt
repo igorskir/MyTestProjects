@@ -1,0 +1,13 @@
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\bin\Debug\BindingSample.exe.config
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\bin\Debug\BindingSample.exe
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\bin\Debug\BindingSample.pdb
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\BindingSample.csprojResolveAssemblyReference.cache
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\MainWindow.baml
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\MainWindow.g.cs
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\App.g.cs
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\BindingSample_MarkupCompile.cache
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\BindingSample.g.resources
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\BindingSample.Properties.Resources.resources
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\BindingSample.csproj.GenerateResource.Cache
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\BindingSample.exe
+D:\VS\Projects\MyTestProjects\BindingSample\BindingSample\obj\Debug\BindingSample.pdb

@@ -1,0 +1,15 @@
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\bin\Debug\AutomaticResizeTextBox.exe.config
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\bin\Debug\AutomaticResizeTextBox.exe
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\bin\Debug\AutomaticResizeTextBox.pdb
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\AutomaticResizeTextBox.csprojResolveAssemblyReference.cache
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\MainWindow.baml
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\MainWindow.g.cs
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\App.g.cs
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\AutomaticResizeTextBox_MarkupCompile.cache
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\AutomaticResizeTextBox.g.resources
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\AutomaticResizeTextBox.Properties.Resources.resources
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\AutomaticResizeTextBox.csproj.GenerateResource.Cache
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\AutomaticResizeTextBox.exe
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\AutomaticResizeTextBox.pdb
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\Templates\Resources.baml
+D:\VS\Projects\MyTestProjects\AutomaticResizeTextBox\AutomaticResizeTextBox\obj\Debug\App.baml
