@@ -1,0 +1,6 @@
+D:\Projects\VisualStudio\MyTestProjects\ParseSmallFile\FileParsing\FileParsing\bin\Debug\FileParsing.exe.config
+D:\Projects\VisualStudio\MyTestProjects\ParseSmallFile\FileParsing\FileParsing\bin\Debug\FileParsing.exe
+D:\Projects\VisualStudio\MyTestProjects\ParseSmallFile\FileParsing\FileParsing\bin\Debug\FileParsing.pdb
+D:\Projects\VisualStudio\MyTestProjects\ParseSmallFile\FileParsing\FileParsing\obj\Debug\FileParsing.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\MyTestProjects\ParseSmallFile\FileParsing\FileParsing\obj\Debug\FileParsing.exe
+D:\Projects\VisualStudio\MyTestProjects\ParseSmallFile\FileParsing\FileParsing\obj\Debug\FileParsing.pdb
