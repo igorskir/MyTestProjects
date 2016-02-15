@@ -1,5 +1,0 @@
-D:\VS\Projects\MyTestProjects\myTreeViewMVVM\BusinessLib\bin\Debug\BusinessLib.dll
-D:\VS\Projects\MyTestProjects\myTreeViewMVVM\BusinessLib\bin\Debug\BusinessLib.pdb
-D:\VS\Projects\MyTestProjects\myTreeViewMVVM\BusinessLib\obj\Debug\BusinessLib.csprojResolveAssemblyReference.cache
-D:\VS\Projects\MyTestProjects\myTreeViewMVVM\BusinessLib\obj\Debug\BusinessLib.dll
-D:\VS\Projects\MyTestProjects\myTreeViewMVVM\BusinessLib\obj\Debug\BusinessLib.pdb

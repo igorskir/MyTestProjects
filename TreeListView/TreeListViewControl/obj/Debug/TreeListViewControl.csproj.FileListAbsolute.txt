@@ -1,9 +1,0 @@
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\bin\Debug\TreeListViewControl.dll
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\bin\Debug\TreeListViewControl.pdb
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\obj\Debug\TreeListViewControl.dll
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\obj\Debug\TreeListViewControl.pdb
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\obj\Debug\TreeListViewControl_MarkupCompile.cache
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\obj\Debug\TreeListViewControl_MarkupCompile.lref
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\obj\Debug\Resources\ResourceDictionary.baml
-D:\VS\Projects\MyTestProjects\TreeListView\TreeListViewControl\obj\Debug\TreeListViewControl.g.resources
