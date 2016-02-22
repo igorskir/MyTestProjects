@@ -20,6 +20,8 @@ namespace DataAccessLayer
         public EmployeesEntities()
             : base("name=EmployeesEntities")
         {
+            Configuration.LazyLoadingEnabled = false;
+            Configuration.ProxyCreationEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
