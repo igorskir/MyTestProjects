@@ -7,7 +7,7 @@ using DomainModel;
 
 namespace BusinessLayer
 {
-    interface IBusinessLayer
+    public interface IBusinessLayer
     {
         IList<Department> GetAllDepartments();
         Department GetDepartmentByName(string departmentName);

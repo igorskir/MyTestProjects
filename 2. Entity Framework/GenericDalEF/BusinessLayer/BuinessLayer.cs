@@ -55,7 +55,7 @@ namespace BusinessLayer
 
         public IList<Employee> GetEmployeesByDepartmentName(string departmentName)
         {
-            return _employeeRepository.GetList(e => e.Department.Name.Equals(departmentName));
+            return _employeeRepository.GetList(e => e.Department.Name.Equals(departmentName), e => e.Department);
         }
 
         public void AddEmployee(Employee employee)

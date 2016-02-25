@@ -7,13 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using DomainModel;
+
 namespace DataAccessLayer
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    using DomainModel;
-    using System.Linq;
     
     public partial class EmployeesEntities : DbContext
     {
