@@ -12,7 +12,7 @@ namespace DomainModel
     using System;
     using System.Collections.Generic;
     
-    public partial class Employee
+    public partial class Employee : IEntity
     {
         public int EmployeeId { get; set; }
         public int DepartmentId { get; set; }
@@ -21,5 +21,6 @@ namespace DomainModel
         public string Email { get; set; }
     
         public virtual Department Department { get; set; }
+        public EntityState EntityState { get; set; }
     }
 }

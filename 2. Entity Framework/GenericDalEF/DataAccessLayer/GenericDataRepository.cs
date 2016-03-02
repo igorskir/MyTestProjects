@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using DomainModel;
+using EntityState = System.Data.Entity.EntityState;
 
 namespace DataAccessLayer
 {
     public class GenericDataRepository <T> : IGenericDataRepository<T>
-        where T : class
+        where T : class, IEntity
     {
         public virtual IList<T> GetAll(params Expression<Func<T, object>>[] navigationProperties)
         {
@@ -61,37 +64,46 @@ namespace DataAccessLayer
 
         public virtual void Add(params T[] items)
         {
-            using (var context = new EmployeesEntities())
-            {
-                foreach (var item in items)
-                {
-                    context.Entry(item).State = EntityState.Added;
-                }
-                context.SaveChanges();
-            }
+            Update(items);
         }
 
         public virtual void Update(params T[] items)
         {
             using (var context = new EmployeesEntities())
             {
+                DbSet<T> dbSet = context.Set<T>();
                 foreach (var item in items)
                 {
-                    context.Entry(item).State = EntityState.Modified;
-                }
+                    dbSet.Add(item);
+                    foreach (DbEntityEntry<IEntity> entry in context.ChangeTracker.Entries<IEntity>())
+                    {
+                        IEntity entity = entry.Entity;
+                        entry.State = GetEntityState(entity.EntityState);
+                    }
+                 }
                 context.SaveChanges();
             }
         }
 
         public virtual void Remove(params T[] items)
         {
-            using (var context = new EmployeesEntities())
+            Update(items);
+        }
+
+        protected static EntityState GetEntityState(DomainModel.EntityState entityState)
+        {
+            switch (entityState)
             {
-                foreach (var item in items)
-                {
-                    context.Entry(item).State = EntityState.Deleted;
-                }
-                context.SaveChanges();
+                case DomainModel.EntityState.Unchanged:
+                    return EntityState.Unchanged;
+                case DomainModel.EntityState.Added:
+                    return EntityState.Added;
+                case DomainModel.EntityState.Modified:
+                    return EntityState.Modified;
+                case DomainModel.EntityState.Deleted:
+                    return EntityState.Deleted;
+                default:
+                    return EntityState.Detached;
             }
         }
     }

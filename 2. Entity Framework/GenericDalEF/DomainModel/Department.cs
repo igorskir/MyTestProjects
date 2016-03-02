@@ -12,7 +12,7 @@ namespace DomainModel
     using System;
     using System.Collections.Generic;
     
-    public partial class Department
+    public partial class Department : IEntity
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Department()
@@ -25,5 +25,7 @@ namespace DomainModel
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Employee> Employees { get; set; }
+
+        public EntityState EntityState { get; set; }
     }
 }

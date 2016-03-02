@@ -14,9 +14,11 @@ namespace ConsoleClientApplication
         {
             IBusinessLayer businessLayer = new BuinessLayer();
 
-            Department itDep = new Department() { Name = "IT" };
-            Department salesDep = new Department() { Name = "Sales" };
-            Department marketing = new Department() { Name = "Marketing" };
+            #region First verison
+            /*
+            Department itDep = new Department() {Name = "IT"};
+            Department salesDep = new Department() {Name = "Sales"};
+            Department marketing = new Department() {Name = "Marketing"};
             businessLayer.AddDepartment(itDep, salesDep, marketing);
 
             Console.WriteLine("Existing departments:");
@@ -53,7 +55,7 @@ namespace ConsoleClientApplication
                 }
             }
 
-            Console.WriteLine("Employees into {0} department:",itDep.Name);
+            Console.WriteLine("Employees into {0} department:", itDep.Name);
             var employees = businessLayer.GetEmployeesByDepartmentName("IT");
             foreach (var emp in employees)
             {
@@ -67,8 +69,53 @@ namespace ConsoleClientApplication
             businessLayer.RemoveEmployee(employee);
             businessLayer.RemoveEmployee(employeeIgor);
 
-            //* Remove departments*/
+            // Remove departments
             businessLayer.RemoveDepartment(itDep, salesDep, marketing);
+            */
+            #endregion
+
+            Department it = new Department() {Name = "IT"};
+            it.Employees = new List<Employee>
+            {
+                new Employee { FirstName = "Donald", LastName = "Duck", EntityState = EntityState.Added},
+                new Employee {FirstName = "Michey", LastName = "Mouse", EntityState = EntityState.Added}
+            };
+            it.EntityState = EntityState.Added;
+            businessLayer.AddDepartment(it);
+
+            Employee employee = new Employee()
+            {
+                FirstName = "Robin",
+                LastName = "Hood",
+                DepartmentId = it.DepartmentId,
+                EntityState = EntityState.Added
+            };
+
+            it.Name = "Information Technology Department";
+            it.EntityState = EntityState.Modified;
+            foreach (var emp in it.Employees)
+            {
+                emp.EntityState = EntityState.Unchanged;
+            }
+
+            it.Employees.Add(employee);
+            businessLayer.UpdateDepartment(it);
+
+            it = businessLayer.GetDepartmentByName("Information Technology Department");
+            if (it != null)
+            {
+                Console.WriteLine("Employees at the {0} department:", it.Name);
+                foreach (var e in it.Employees)
+                {
+                    Console.WriteLine("{0} {1}", e.FirstName, e.LastName);
+                }
+            }
+
+            /* Delete all entities */
+            it.EntityState = EntityState.Deleted;
+            foreach (Employee e in it.Employees)
+                e.EntityState = EntityState.Deleted;
+            businessLayer.RemoveDepartment(it);
 
             Console.ReadLine();
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Core.Objects.DataClasses;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -8,7 +9,7 @@ using DomainModel;
 
 namespace DataAccessLayer
 {
-    public interface IGenericDataRepository <T> where T : class
+    public interface IGenericDataRepository <T> where T : class , IEntity
     {
         IList<T> GetAll(params Expression<Func<T, object>>[] navigationProperties);
         IList<T> GetList(Func<T, bool> where, params Expression<Func<T, object>>[] navigationProperties);
