@@ -51,11 +51,7 @@ namespace Aga.Controls.Tree
 			get { return Root.Nodes; }
 		}
 
-		internal TreeNode PendingFocusNode
-		{
-			get;
-			set;
-		}
+		internal TreeNode PendingFocusNode {get; set;}
 
 		public ICollection<TreeNode> SelectedNodes
 		{
