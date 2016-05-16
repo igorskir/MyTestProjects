@@ -23,8 +23,8 @@ namespace FormulaArtWPF
         public MainWindow()
         {
             InitializeComponent();
-            MainWindowVM mainVM = new MainWindowVM();
-            this.DataContext = mainVM;
+            MainWindowVm mainVm = new MainWindowVm();
+            this.DataContext = mainVm;
         }
     }
 }
