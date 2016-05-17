@@ -1,0 +1,14 @@
+﻿<mui:ModernWindow x:Class="TestModernGUIProject.MainWindow"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  Title="TestMUIApp" 
+                  Style="{StaticResource BlankWindow}">
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Text="MODERN UI FOR WPF" Style="{StaticResource Heading1}" />
+            <TextBlock Text="Your content here" />
+            <Button Content="MyFirst button" Width="120"></Button>
+        </StackPanel>
+    </ScrollViewer>
+</mui:ModernWindow>
