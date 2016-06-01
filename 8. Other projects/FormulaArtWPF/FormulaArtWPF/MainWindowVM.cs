@@ -17,7 +17,7 @@ namespace FormulaArtWPF
         private double _var_h;
         private double _var_T;
         private double _var_t;
-        private string _var_G;
+        private double _var_G;
 
         public MainWindowVm()
         {
@@ -83,20 +83,19 @@ namespace FormulaArtWPF
             }
         }
 
-        public string Var_G
+        public double Var_G
         {
             get
             {
                 try
-                {
-                   double res = (_var_H - _var_h) / (_var_T - _var_t);
-                    _var_G = res.ToString(CultureInfo.InvariantCulture);
+                {            
+                    _var_G = (_var_H - _var_h) / (_var_T - _var_t);
                     return _var_G;
                 }
                 catch (Exception exception)
                 {
                     MessageBox.Show("Error is occure: {0}", exception.ToString());
-                    return "error";
+                    return 0;
                 }
             }
             set

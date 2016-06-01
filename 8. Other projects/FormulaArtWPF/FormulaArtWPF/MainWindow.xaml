@@ -10,11 +10,11 @@
         <local:DecimalConverter x:Key="decConverter"></local:DecimalConverter>
         <Style x:Key ="TextBoxStyle" TargetType="TextBox">
             <Setter Property="MinWidth" Value="80"></Setter>
-            <Setter Property="Height" Value="27"></Setter>
-            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Height" Value="20"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
         </Style>
         <Style x:Key ="TextBlockStyle" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
         </Style>
     </Window.Resources>
     <Window.Background>
@@ -35,7 +35,11 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" TextAlignment="Left" Margin="5" HorizontalAlignment="Left" Text="Формула, связывающая температуру породы с глубиной погружения в земную поверхность:" FontSize="18" TextWrapping="Wrap"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+                   TextAlignment="Left" Margin="5"
+                   HorizontalAlignment="Left" 
+                   Text="Формула, связывающая температуру породы с глубиной погружения в земную поверхность:" 
+                   FontSize="14" TextWrapping="Wrap"></TextBlock>
         <Image Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Source="Resources/Formula.png" Width="100" HorizontalAlignment="Center"></Image>
         <Grid  Margin="5,0,0,0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left">
             <Grid.ColumnDefinitions>
@@ -47,29 +51,29 @@
             <StackPanel Margin="5" Grid.Column="0" Orientation="Horizontal">
                 <TextBlock Style="{StaticResource TextBlockStyle}" Text="H="></TextBlock>
                 <TextBox TabIndex="1"  Style="{StaticResource TextBoxStyle}" 
-                         Text="{Binding Path=Var_H, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource decConverter}}"/>
+                         Text="{Binding Path=Var_H, UpdateSourceTrigger=PropertyChanged, StringFormat=N5}"/>
             </StackPanel>
             <StackPanel Margin="5" Grid.Column="1" Orientation="Horizontal">
                 <TextBlock  Style="{StaticResource TextBlockStyle}" Text="h="></TextBlock>
                 <TextBox TabIndex="2" Style="{StaticResource TextBoxStyle}" 
-                         Text="{Binding Path=Var_h, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource decConverter}}"></TextBox>
+                         Text="{Binding Path=Var_h, UpdateSourceTrigger=PropertyChanged, StringFormat=N5}"></TextBox>
             </StackPanel>
             <StackPanel Margin="5"   Grid.Column="2" Orientation="Horizontal">
                 <TextBlock  Style="{StaticResource TextBlockStyle}" Text="T="></TextBlock>
                 <TextBox TabIndex="3" Style="{StaticResource TextBoxStyle}"
-                         Text="{Binding Path=Var_T, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource decConverter}}"></TextBox>
+                         Text="{Binding Path=Var_T, UpdateSourceTrigger=PropertyChanged, StringFormat=N5}"></TextBox>
             </StackPanel>
             <StackPanel Margin="5"  Grid.Column="3" Orientation="Horizontal">
                 <TextBlock  Style="{StaticResource TextBlockStyle}" Text="t="></TextBlock>
                 <TextBox  TabIndex="4" Style="{StaticResource TextBoxStyle}" 
-                          Text="{Binding Path=Var_t, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource decConverter}}"></TextBox>
+                          Text="{Binding Path=Var_t, UpdateSourceTrigger=PropertyChanged, StringFormat=N5}"></TextBox>
             </StackPanel>
         </Grid>
         <Border Margin="0,5,0,0" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Height="2" Background="Beige" />
         <StackPanel Margin="10,5,5,5" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"  Orientation="Horizontal">
             <TextBlock  Style="{StaticResource TextBlockStyle}" Text="G="></TextBlock>
             <TextBox  Style="{StaticResource TextBoxStyle}" 
-                       Text="{Binding Path=Var_G, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource decConverter}}"></TextBox>
+                       Text="{Binding Path=Var_G, UpdateSourceTrigger=PropertyChanged, StringFormat=N5}"/>
         </StackPanel>
 
     </Grid>
