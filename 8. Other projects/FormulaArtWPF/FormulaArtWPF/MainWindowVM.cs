@@ -18,6 +18,7 @@ namespace FormulaArtWPF
         private double _var_T;
         private double _var_t;
         private double _var_G;
+       
 
         public MainWindowVm()
         {
@@ -41,11 +42,20 @@ namespace FormulaArtWPF
             }
         }
 
+        public string S { get; set; }
+        private string s;
+       
+
         public double Var_h
         {
             get
             {
                 return _var_h;
+                var b = false;
+
+                if (b)
+                    return 0;
+
             }
             set
             {
