@@ -7,7 +7,9 @@ namespace FactoryMethod
     {
         private static void Main(string[] args)
         {
-            Developer dev = new PanelDeveloper("TDSK_PANEL");
+            Developer dev;
+
+            dev = new PanelDeveloper("TDSK_PANEL");
             House panelHouse = dev.Create();
 
             dev = new WoodDeveloper("WOOD_STROY");

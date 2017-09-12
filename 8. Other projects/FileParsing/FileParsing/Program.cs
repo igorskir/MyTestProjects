@@ -12,9 +12,23 @@ namespace FileParsing
     {
         static void Main(string[] args)
         {
+            int i = 1;
+            Console.WriteLine(++i);
+            Console.WriteLine(i++);
+
+            int x = 1;
+            x = x + ++x;
+
+            int y = 1;
+            y = ++y + y;
+
+            int z = 1;
+            z = z++ + z;
+
+            Console.WriteLine(x + " " + y + " " + z);
             //ParseMethodFirst(@"D:\data.txt", @"D:\res.txt");
             //FindeNextId(@"D:\ids.txt");
-            GetPostElements(@"D:\post.txt");
+            //GetPostElements(@"D:\post.txt");
             Console.ReadLine();
         }
 
